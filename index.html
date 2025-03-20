@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 비교 슬라이더</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <!-- 이미지 1 (기본 배경) -->
+        <img src="image1.jpg" class="background-image">
+
+        <!-- 이미지 2 (앞쪽 이미지, 가려진 상태에서 슬라이딩) -->
+        <div class="foreground-container">
+            <img src="image2.jpg" class="foreground-image">
+        </div>
+
+        <!-- 슬라이더 바 -->
+        <div class="slider-bar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
